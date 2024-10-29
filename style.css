@@ -1,11 +1,18 @@
 @import url(“styles/header.css”);
 :root {
-    --cor-de-fundo: #fae7f7;
-    }
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --degrade:linear-gradient(90deg, rgba(236,42,77,1) 0%, rgba(249,83,101,1) 13%, rgba(224,117,143,1) 32%, rgba(240,157,169,1) 48%, rgba(224,117,143,1) 64%, rgba(249,83,101,1) 89%, rgba(236,42,77,1) 98%);
+  --fonte-principal: "Poppins";
+}
     body {
-        background-color: var(--cor-de-fundo);
-
-        }
+            background-color: var(--cor-de-fundo);
+            font-family: var(--fonte-principal);
+            font-size: 16px;
+            font-weight: 400;
+            }
+        
         .cabeçalho__menu-hamburguer {
             width: 24px;
             height: 24px;
@@ -29,3 +36,4 @@
                             display: flex;
                             align-items: center;
                             }
+                            
